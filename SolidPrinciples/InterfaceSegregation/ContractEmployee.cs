@@ -2,7 +2,7 @@ using System;
 
 namespace SolidPrinciples.InterfaceSegregation
 {
-    public class ContractEmployee
+    public class ContractEmployee: IWorker
     {
         public string Id { get; set; }
         
